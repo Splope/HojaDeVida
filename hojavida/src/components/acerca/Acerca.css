@@ -1,0 +1,45 @@
+.acerca {
+    padding: 18px;
+    flex-basis: 50%;
+}
+
+.TituloCar{
+    margin: 5px 5px 5px 0px;
+}
+
+
+progress[value]::-webkit-progress-bar {
+    background-color: #c2d2e9;
+}
+
+
+progress[value]::-webkit-progress-value {
+    background-color: hsl(273, 34%, 73%);
+    
+}
+
+.info{
+    font-weight: 600;
+}
+
+.Titulo2{
+    margin: 5px 5px 5px 0px;
+}
+
+.Titulo{
+    padding: 5px 5px 5px 0px;
+    
+}
+
+.titlab{
+    background-color:hsl(273, 34%, 73%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 20px;
+}
+
+.estudio p{
+    padding-left:40px ;
+    margin: 10px 0;
+}
+

@@ -1,0 +1,40 @@
+.contacto{
+    border-right: 3px solid hsl(273, 34%, 73%);
+    padding: 10px;
+    flex-basis: 50%;
+}
+
+.info {
+    margin-bottom: 5px;
+}
+
+.info i{
+    background-color: hsl(273, 34%, 73%);
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.ref {
+    margin-bottom: 5px;
+}
+
+.ref i{
+    background-color: hsl(273, 34%, 73%);
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    border-bottom: 4px solid hsl(273, 34%, 73%);
+    width: 50%;
+    margin: 5px auto;
+}
+

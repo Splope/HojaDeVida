@@ -1,0 +1,8 @@
+footer{
+    background-image: url('footer.png');
+    min-height: 189px;
+}
+
+.imagen {
+    float: right;
+}
