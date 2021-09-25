@@ -1,21 +1,35 @@
 
 import './App.css';
-import Header from './components/header/Header';
-import Contact from './components/contact/Contact';
-import Acerca from './components/acerca/Acerca';
-import Footer from './components/Footer/Footer.css';
+import{
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Portafolio from "./pages/Portafolio";
+import Home from "./pages/Home";
+import Error404 from './pages/Error404';
 
 function App() {
   return (
-    <div className="container">
-     <Header />
-     <section id="informacion">
-     <Contact />
-     <Acerca />
-     </section>
-     <footer />
+    <div>
+    
+    <Router>
+      <Switch>
+      <Route path="/portafolio">
+      <Portafolio />
+      </Route>
+
+      <Route exact path="/">
+      <Home />
+      </Route>
+
+      <Route path="*">
+      <Error404 />
+      </Route>
+      </Switch>
+    </Router>
     </div>
-  );
+    );
 }
 
 export default App;
